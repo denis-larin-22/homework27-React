@@ -1,5 +1,20 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 0;
+  background: rgb(245,193,59);
+  background: linear-gradient(29deg, rgba(245,193,59,1) 0%, rgba(24,69,242,1) 85%);
+}
+
+.App img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgb(68,62,108);
+  background: linear-gradient(29deg, rgba(68,62,108,1) 0%, rgba(24,69,242,1) 85%);
 }
 
 .App-logo {
@@ -35,4 +50,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  padding: 20px 30px;
+  font-size: 1.5em;
+  cursor: pointer;
 }
